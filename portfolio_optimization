@@ -1,0 +1,41 @@
+# modules/portfolio_optimization.py
+from telegram import Update
+
+def get_portfolio_overview():
+    """
+    Placeholder function to fetch portfolio overview.
+    """
+    return {
+        "BTC": 0.6,
+        "ETH": 0.4
+    }
+
+async def efficient_frontier(update: Update, context):
+    """
+    Optimize portfolio using Efficient Frontier.
+    """
+    try:
+        # Fetch portfolio data
+        portfolio = get_portfolio_overview()
+        
+        # Perform optimization (placeholder logic)
+        optimized_portfolio = "Optimized portfolio allocation: 60% BTC, 40% ETH"
+        
+        await update.message.reply_text(optimized_portfolio)
+    except Exception as e:
+        await update.message.reply_text(f"Error optimizing portfolio: {str(e)}")
+
+async def tax_loss_harvesting(update: Update, context):
+    """
+    Perform tax-loss harvesting.
+    """
+    try:
+        # Fetch portfolio data
+        portfolio = get_portfolio_overview()
+        
+        # Perform tax-loss harvesting (placeholder logic)
+        result = "Tax-loss harvesting completed. Sold losing positions: BTC, ETH"
+        
+        await update.message.reply_text(result)
+    except Exception as e:
+        await update.message.reply_text(f"Error performing tax-loss harvesting: {str(e)}")

@@ -1,0 +1,926 @@
+2025-02-27 04:55:15,302 - ERROR - An error occurred during trade execution.
+2025-02-27 04:55:15,305 - INFO - Trade executed: {'symbol': 'BTC/USDT', 'side': 'BUY', 'quantity': 0.001, 'price': 50000}
+2025-02-27 04:55:15,306 - INFO - Performance metrics: {'total_trades': 10, 'win_rate': 0.7, 'average_profit': 0.02}
+2025-02-27 21:31:04,793 - root - INFO - Logging setup complete.
+2025-02-27 21:36:12,063 - root - INFO - Logging setup complete.
+2025-02-27 21:37:59,571 - root - INFO - Logging setup complete.
+2025-02-27 21:38:28,988 - root - INFO - Logging setup complete.
+2025-02-27 21:39:41,842 - root - INFO - Logging setup complete.
+2025-02-27 21:43:44,445 - root - INFO - Logging setup complete.
+2025-02-27 21:45:36,301 - root - INFO - Logging setup complete.
+2025-02-27 22:01:04,039 - root - INFO - Logging setup complete.
+2025-02-27 22:04:06,375 - root - INFO - Logging setup complete.
+2025-02-27 22:05:21,309 - root - INFO - Logging setup complete.
+2025-02-27 22:06:55,850 - root - ERROR - Fatal error: cannot access local variable 'get_profit_loss_chart' where it is not associated with a value
+2025-02-27 22:09:05,091 - root - INFO - Logging setup complete.
+2025-02-27 22:09:05,504 - root - ERROR - Binance API credentials not found in environment variables
+2025-02-27 22:09:05,506 - root - INFO - Shutting down bot...
+2025-02-27 22:10:21,158 - root - INFO - Logging setup complete.
+2025-02-27 22:10:21,565 - root - ERROR - Binance API credentials not found in environment variables
+2025-02-27 22:10:21,566 - root - INFO - Shutting down bot...
+2025-02-27 22:11:26,617 - root - INFO - Logging setup complete.
+2025-02-27 22:11:27,038 - root - ERROR - Binance API credentials not found in environment variables
+2025-02-27 22:11:27,039 - root - INFO - Shutting down bot...
+2025-02-28 11:00:10,336 - root - INFO - Logging setup complete.
+2025-02-28 11:00:10,981 - root - ERROR - Binance API credentials not found in environment variables
+2025-02-28 11:00:10,982 - root - INFO - Shutting down bot...
+2025-02-28 12:04:28,321 - root - INFO - Logging setup complete.
+2025-02-28 12:04:28,956 - root - ERROR - Binance API credentials not found in environment variables
+2025-02-28 12:04:28,958 - root - INFO - Shutting down bot...
+2025-02-28 12:13:08,175 - root - INFO - Logging setup complete.
+2025-02-28 12:13:08,808 - root - ERROR - Binance API credentials not found in environment variables
+2025-02-28 12:13:08,808 - root - INFO - Shutting down bot...
+2025-02-28 12:22:48,150 - root - INFO - Logging setup complete.
+2025-02-28 12:22:48,811 - root - ERROR - Binance API credentials not found in environment variables
+2025-02-28 12:22:48,812 - root - INFO - Shutting down bot...
+2025-02-28 12:23:53,332 - root - INFO - Logging setup complete.
+2025-02-28 12:23:53,932 - root - ERROR - Binance API credentials not found in environment variables
+2025-02-28 12:23:53,932 - root - INFO - Shutting down bot...
+2025-02-28 12:29:28,839 - root - INFO - Logging setup complete.
+2025-02-28 12:29:29,431 - root - ERROR - Binance API credentials not found in environment variables
+2025-02-28 12:29:29,432 - root - INFO - Shutting down bot...
+2025-02-28 14:58:32,478 - root - INFO - Logging setup complete.
+2025-02-28 14:58:33,175 - root - ERROR - Binance API credentials not found in environment variables
+2025-02-28 14:58:33,176 - root - INFO - Shutting down bot...
+2025-02-28 15:31:06,824 - root - INFO - Logging setup complete.
+2025-02-28 15:31:07,463 - root - ERROR - Binance API credentials not found in environment variables
+2025-02-28 15:31:07,464 - root - INFO - Shutting down bot...
+2025-02-28 15:32:03,185 - root - INFO - Logging setup complete.
+2025-02-28 15:32:03,879 - root - INFO - Logging setup complete.
+2025-02-28 16:03:22,634 - root - INFO - Logging setup complete.
+2025-02-28 16:03:24,755 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-28 16:03:24,756 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-28 16:03:28,096 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getMe "HTTP/1.1 200 OK"
+2025-02-28 16:03:28,338 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/deleteWebhook "HTTP/1.1 200 OK"
+2025-02-28 16:03:28,344 - apscheduler.scheduler - INFO - Added job "check_price_alerts" to job store "default"
+2025-02-28 16:03:28,346 - apscheduler.scheduler - INFO - Added job "check_stop_loss_take_profit" to job store "default"
+2025-02-28 16:03:28,347 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-28 16:03:28,349 - telegram.ext.Application - INFO - Application started
+2025-02-28 16:03:34,751 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:04:34 UTC)" (scheduled at 2025-02-28 13:03:34.741111+00:00)
+2025-02-28 16:03:34,754 - root - ERROR - [2025-02-28 16:03:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:03:34,756 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:04:34 UTC)" (scheduled at 2025-02-28 13:03:34.756196+00:00)
+2025-02-28 16:03:34,758 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:04:34 UTC)" executed successfully
+2025-02-28 16:03:34,762 - root - ERROR - [2025-02-28 16:03:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:03:34,764 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:04:34 UTC)" executed successfully
+2025-02-28 16:03:38,984 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:03:49,225 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:03:59,465 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:04:09,705 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:04:19,944 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:04:20,149 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:04:20,797 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:04:30,389 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:04:34,766 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:05:34 UTC)" (scheduled at 2025-02-28 13:04:34.741111+00:00)
+2025-02-28 16:04:34,768 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:05:34 UTC)" (scheduled at 2025-02-28 13:04:34.756196+00:00)
+2025-02-28 16:04:34,769 - root - ERROR - [2025-02-28 16:04:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:04:34,771 - root - ERROR - [2025-02-28 16:04:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:04:34,772 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:05:34 UTC)" executed successfully
+2025-02-28 16:04:34,774 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:05:34 UTC)" executed successfully
+2025-02-28 16:04:40,630 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:04:50,869 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:05:01,109 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:05:07,458 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:05:08,087 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:05:17,697 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:05:27,916 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:05:34,754 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:06:34 UTC)" (scheduled at 2025-02-28 13:05:34.741111+00:00)
+2025-02-28 16:05:34,757 - root - ERROR - [2025-02-28 16:05:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:05:34,759 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:06:34 UTC)" (scheduled at 2025-02-28 13:05:34.756196+00:00)
+2025-02-28 16:05:34,762 - root - ERROR - [2025-02-28 16:05:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:05:34,764 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:06:34 UTC)" executed successfully
+2025-02-28 16:05:34,767 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:06:34 UTC)" executed successfully
+2025-02-28 16:05:38,177 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:05:48,417 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:05:58,658 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:06:08,898 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:06:10,230 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:06:10,875 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-02-28 16:06:11,109 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/editMessageText "HTTP/1.1 200 OK"
+2025-02-28 16:06:20,406 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:06:23,439 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:06:33,601 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:06:34,747 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:07:34 UTC)" (scheduled at 2025-02-28 13:06:34.741111+00:00)
+2025-02-28 16:06:34,750 - root - ERROR - [2025-02-28 16:06:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:06:34,751 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:07:34 UTC)" executed successfully
+2025-02-28 16:06:34,762 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:07:34 UTC)" (scheduled at 2025-02-28 13:06:34.756196+00:00)
+2025-02-28 16:06:34,765 - root - ERROR - [2025-02-28 16:06:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:06:34,769 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:07:34 UTC)" executed successfully
+2025-02-28 16:06:35,122 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:06:35,667 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-02-28 16:06:35,853 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:06:45,366 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:07:21,715 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:07:22,215 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:07:32,379 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:07:34,758 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:08:34 UTC)" (scheduled at 2025-02-28 13:07:34.741111+00:00)
+2025-02-28 16:07:34,761 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:08:34 UTC)" (scheduled at 2025-02-28 13:07:34.756196+00:00)
+2025-02-28 16:07:34,765 - root - ERROR - [2025-02-28 16:07:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:07:34,768 - root - ERROR - [2025-02-28 16:07:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:07:34,779 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:08:34 UTC)" executed successfully
+2025-02-28 16:07:34,783 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:08:34 UTC)" executed successfully
+2025-02-28 16:07:42,550 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:07:52,730 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:08:02,901 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:08:13,107 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:08:23,347 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:08:33,587 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:08:34,756 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:09:34 UTC)" (scheduled at 2025-02-28 13:08:34.741111+00:00)
+2025-02-28 16:08:34,759 - root - ERROR - [2025-02-28 16:08:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:08:34,761 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:09:34 UTC)" (scheduled at 2025-02-28 13:08:34.756196+00:00)
+2025-02-28 16:08:34,764 - root - ERROR - [2025-02-28 16:08:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:08:34,766 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:09:34 UTC)" executed successfully
+2025-02-28 16:08:34,769 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:09:34 UTC)" executed successfully
+2025-02-28 16:08:43,829 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:08:53,987 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:09:04,204 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:09:14,445 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:09:24,684 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:09:34,763 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:10:34 UTC)" (scheduled at 2025-02-28 13:09:34.741111+00:00)
+2025-02-28 16:09:34,765 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:10:34 UTC)" (scheduled at 2025-02-28 13:09:34.756196+00:00)
+2025-02-28 16:09:34,767 - root - ERROR - [2025-02-28 16:09:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:09:34,769 - root - ERROR - [2025-02-28 16:09:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:09:34,770 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:10:34 UTC)" executed successfully
+2025-02-28 16:09:34,773 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:10:34 UTC)" executed successfully
+2025-02-28 16:09:34,924 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:09:45,165 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:09:55,328 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:10:05,542 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:10:15,782 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:10:25,973 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:10:34,744 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:11:34 UTC)" (scheduled at 2025-02-28 13:10:34.741111+00:00)
+2025-02-28 16:10:34,747 - root - ERROR - [2025-02-28 16:10:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:10:34,749 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:11:34 UTC)" executed successfully
+2025-02-28 16:10:34,760 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:11:34 UTC)" (scheduled at 2025-02-28 13:10:34.756196+00:00)
+2025-02-28 16:10:34,763 - root - ERROR - [2025-02-28 16:10:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:10:34,766 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:11:34 UTC)" executed successfully
+2025-02-28 16:10:36,159 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:10:46,400 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:10:56,562 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:11:06,724 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:11:16,915 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:11:27,238 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:11:34,756 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:12:34 UTC)" (scheduled at 2025-02-28 13:11:34.741111+00:00)
+2025-02-28 16:11:34,759 - root - ERROR - [2025-02-28 16:11:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:11:34,761 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:12:34 UTC)" (scheduled at 2025-02-28 13:11:34.756196+00:00)
+2025-02-28 16:11:34,763 - root - ERROR - [2025-02-28 16:11:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:11:34,764 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:12:34 UTC)" executed successfully
+2025-02-28 16:11:34,767 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:12:34 UTC)" executed successfully
+2025-02-28 16:11:37,498 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:11:47,736 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:11:57,977 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:12:08,216 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:12:18,379 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:12:28,553 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:12:34,745 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:13:34 UTC)" (scheduled at 2025-02-28 13:12:34.741111+00:00)
+2025-02-28 16:12:34,747 - root - ERROR - [2025-02-28 16:12:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:12:34,749 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:13:34 UTC)" executed successfully
+2025-02-28 16:12:34,761 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:13:34 UTC)" (scheduled at 2025-02-28 13:12:34.756196+00:00)
+2025-02-28 16:12:34,763 - root - ERROR - [2025-02-28 16:12:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:12:34,765 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:13:34 UTC)" executed successfully
+2025-02-28 16:12:38,732 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:12:48,972 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:12:55,832 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:12:56,552 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:13:06,003 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:13:16,210 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:13:26,449 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:13:34,437 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:13:34,744 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:14:34 UTC)" (scheduled at 2025-02-28 13:13:34.741111+00:00)
+2025-02-28 16:13:34,746 - root - ERROR - [2025-02-28 16:13:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:13:34,748 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:14:34 UTC)" executed successfully
+2025-02-28 16:13:34,761 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:14:34 UTC)" (scheduled at 2025-02-28 13:13:34.756196+00:00)
+2025-02-28 16:13:34,766 - root - ERROR - [2025-02-28 16:13:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:13:34,770 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:14:34 UTC)" executed successfully
+2025-02-28 16:13:44,677 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:13:46,334 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:13:46,936 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:13:51,025 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:13:51,247 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:13:58,295 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:13:58,408 - root - ERROR - [2025-02-28 16:13:58] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:13:59,014 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:14:08,636 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:14:09,663 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:14:09,667 - root - ERROR - [2025-02-28 16:14:09] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:14:10,280 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:14:19,902 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:14:30,143 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:14:34,750 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:15:34 UTC)" (scheduled at 2025-02-28 13:14:34.741111+00:00)
+2025-02-28 16:14:34,752 - root - ERROR - [2025-02-28 16:14:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:14:34,754 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:15:34 UTC)" executed successfully
+2025-02-28 16:14:34,756 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:15:34 UTC)" (scheduled at 2025-02-28 13:14:34.756196+00:00)
+2025-02-28 16:14:34,757 - root - ERROR - [2025-02-28 16:14:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:14:34,759 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:15:34 UTC)" executed successfully
+2025-02-28 16:14:40,382 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:14:43,454 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:14:43,460 - root - ERROR - [2025-02-28 16:14:43] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:14:44,072 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:14:53,694 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:14:57,483 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:14:57,490 - root - ERROR - [2025-02-28 16:14:57] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:14:58,142 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:15:07,723 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:15:08,849 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:15:08,854 - root - ERROR - [2025-02-28 16:15:08] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:15:09,479 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:15:15,608 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:15:16,283 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:15:25,774 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:15:33,834 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:15:33,840 - root - ERROR - [2025-02-28 16:15:33] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:15:34,547 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:15:34,749 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:16:34 UTC)" (scheduled at 2025-02-28 13:15:34.741111+00:00)
+2025-02-28 16:15:34,752 - root - ERROR - [2025-02-28 16:15:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:15:34,757 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:16:34 UTC)" (scheduled at 2025-02-28 13:15:34.756196+00:00)
+2025-02-28 16:15:34,771 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:16:34 UTC)" executed successfully
+2025-02-28 16:15:34,779 - root - ERROR - [2025-02-28 16:15:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:15:34,788 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:16:34 UTC)" executed successfully
+2025-02-28 16:15:44,075 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:15:46,020 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:15:46,027 - root - ERROR - [2025-02-28 16:15:46] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:15:46,602 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:15:56,260 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:16:06,500 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:16:16,740 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:16:22,480 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:16:32,714 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:16:34,753 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:17:34 UTC)" (scheduled at 2025-02-28 13:16:34.741111+00:00)
+2025-02-28 16:16:34,756 - root - ERROR - [2025-02-28 16:16:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:16:34,758 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:17:34 UTC)" (scheduled at 2025-02-28 13:16:34.756196+00:00)
+2025-02-28 16:16:34,760 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:17:34 UTC)" executed successfully
+2025-02-28 16:16:34,763 - root - ERROR - [2025-02-28 16:16:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:16:34,765 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:17:34 UTC)" executed successfully
+2025-02-28 16:16:42,954 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:16:44,388 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:16:45,004 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:16:54,628 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:16:59,645 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:16:59,649 - root - ERROR - Error generating chart: 'CallbackContext' object is not subscriptable
+2025-02-28 16:16:59,650 - root - ERROR - [2025-02-28 16:16:59] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:17:00,300 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:17:09,885 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:17:20,125 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:17:23,299 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:17:23,917 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:17:33,465 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:17:34,758 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:18:34 UTC)" (scheduled at 2025-02-28 13:17:34.741111+00:00)
+2025-02-28 16:17:34,761 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:18:34 UTC)" (scheduled at 2025-02-28 13:17:34.756196+00:00)
+2025-02-28 16:17:34,763 - root - ERROR - [2025-02-28 16:17:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:17:34,764 - root - ERROR - [2025-02-28 16:17:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:17:34,766 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:18:34 UTC)" executed successfully
+2025-02-28 16:17:34,768 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:18:34 UTC)" executed successfully
+2025-02-28 16:17:36,100 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:17:46,340 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:19:02,270 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:19:02,299 - apscheduler.executors.default - WARNING - Run time of job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:19:34 UTC)" was missed by 0:00:27.558412
+2025-02-28 16:19:02,314 - apscheduler.executors.default - WARNING - Run time of job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:19:34 UTC)" was missed by 0:00:27.558334
+2025-02-28 16:19:02,846 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:19:02,851 - root - ERROR - [2025-02-28 16:19:02] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:19:03,622 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:19:13,076 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:19:23,414 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:19:33,961 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:19:34,742 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:20:34 UTC)" (scheduled at 2025-02-28 13:19:34.741111+00:00)
+2025-02-28 16:19:34,745 - root - ERROR - [2025-02-28 16:19:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:19:34,747 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:20:34 UTC)" executed successfully
+2025-02-28 16:19:34,758 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:20:34 UTC)" (scheduled at 2025-02-28 13:19:34.756196+00:00)
+2025-02-28 16:19:34,762 - root - ERROR - [2025-02-28 16:19:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:19:34,764 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:20:34 UTC)" executed successfully
+2025-02-28 16:19:44,202 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:19:54,442 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:20:04,610 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:20:14,783 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:20:24,986 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:20:34,753 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:21:34 UTC)" (scheduled at 2025-02-28 13:20:34.741111+00:00)
+2025-02-28 16:20:34,756 - root - ERROR - [2025-02-28 16:20:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:20:34,759 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:21:34 UTC)" (scheduled at 2025-02-28 13:20:34.756196+00:00)
+2025-02-28 16:20:34,760 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:21:34 UTC)" executed successfully
+2025-02-28 16:20:34,763 - root - ERROR - [2025-02-28 16:20:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:20:34,766 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:21:34 UTC)" executed successfully
+2025-02-28 16:20:35,196 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:20:45,436 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:20:55,613 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:21:05,814 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:21:16,055 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:21:26,294 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:21:34,767 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:22:34 UTC)" (scheduled at 2025-02-28 13:21:34.741111+00:00)
+2025-02-28 16:21:34,769 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:22:34 UTC)" (scheduled at 2025-02-28 13:21:34.756196+00:00)
+2025-02-28 16:21:34,771 - root - ERROR - [2025-02-28 16:21:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:21:34,774 - root - ERROR - [2025-02-28 16:21:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:21:34,777 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:22:34 UTC)" executed successfully
+2025-02-28 16:21:34,780 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:22:34 UTC)" executed successfully
+2025-02-28 16:21:36,533 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:21:46,701 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:21:56,911 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:22:07,150 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:22:17,396 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:22:27,630 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:22:34,751 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:23:34 UTC)" (scheduled at 2025-02-28 13:22:34.741111+00:00)
+2025-02-28 16:22:34,753 - root - ERROR - [2025-02-28 16:22:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:22:34,756 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:23:34 UTC)" executed successfully
+2025-02-28 16:22:34,758 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:23:34 UTC)" (scheduled at 2025-02-28 13:22:34.756196+00:00)
+2025-02-28 16:22:34,760 - root - ERROR - [2025-02-28 16:22:34] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:22:34,762 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:23:34 UTC)" executed successfully
+2025-02-28 16:22:37,870 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:22:48,110 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:22:48,315 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:22:56,326 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:22:56,329 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-02-28 16:22:56,331 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-02-28 16:22:56,333 - telegram.ext.Application - INFO - Application.stop() complete
+2025-02-28 16:22:56,338 - root - INFO - Shutting down bot...
+2025-02-28 16:23:32,100 - root - INFO - Logging setup complete.
+2025-02-28 16:23:34,750 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-28 16:23:34,752 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-28 16:23:35,427 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getMe "HTTP/1.1 200 OK"
+2025-02-28 16:23:35,720 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/deleteWebhook "HTTP/1.1 200 OK"
+2025-02-28 16:23:35,727 - apscheduler.scheduler - INFO - Added job "check_price_alerts" to job store "default"
+2025-02-28 16:23:35,728 - apscheduler.scheduler - INFO - Added job "check_stop_loss_take_profit" to job store "default"
+2025-02-28 16:23:35,730 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-28 16:23:35,732 - telegram.ext.Application - INFO - Application started
+2025-02-28 16:23:36,252 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:23:36,500 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:23:44,756 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:24:44 UTC)" (scheduled at 2025-02-28 13:23:44.740511+00:00)
+2025-02-28 16:23:44,758 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:24:44 UTC)" (scheduled at 2025-02-28 13:23:44.750847+00:00)
+2025-02-28 16:23:44,760 - root - ERROR - [2025-02-28 16:23:44] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:23:44,762 - root - ERROR - [2025-02-28 16:23:44] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:23:44,763 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:24:44 UTC)" executed successfully
+2025-02-28 16:23:44,767 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:24:44 UTC)" executed successfully
+2025-02-28 16:23:46,422 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:23:47,412 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:23:47,418 - root - ERROR - [2025-02-28 16:23:47] ERROR: An error occurred: predict_price() missing 1 required positional argument: 'scaler'
+2025-02-28 16:23:48,019 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:23:57,639 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:23:59,381 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:24:00,004 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:24:06,883 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:24:07,519 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:24:17,096 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:24:26,312 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:24:26,943 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:24:27,171 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:24:36,552 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:24:44,752 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:25:44 UTC)" (scheduled at 2025-02-28 13:24:44.740511+00:00)
+2025-02-28 16:24:44,753 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:25:44 UTC)" (scheduled at 2025-02-28 13:24:44.750847+00:00)
+2025-02-28 16:24:44,756 - root - ERROR - [2025-02-28 16:24:44] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:24:44,757 - root - ERROR - [2025-02-28 16:24:44] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:24:44,758 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:25:44 UTC)" executed successfully
+2025-02-28 16:24:44,759 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:25:44 UTC)" executed successfully
+2025-02-28 16:24:46,714 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:24:56,911 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:25:07,105 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:25:11,777 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:25:11,783 - root - ERROR - [2025-02-28 16:25:11] ERROR: An error occurred: sync_trade_history() takes 0 positional arguments but 2 were given
+2025-02-28 16:25:12,473 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:25:21,949 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:25:32,155 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:25:42,321 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:25:44,741 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:26:44 UTC)" (scheduled at 2025-02-28 13:25:44.740511+00:00)
+2025-02-28 16:25:44,743 - root - ERROR - [2025-02-28 16:25:44] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:25:44,744 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:26:44 UTC)" executed successfully
+2025-02-28 16:25:44,758 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:26:44 UTC)" (scheduled at 2025-02-28 13:25:44.750847+00:00)
+2025-02-28 16:25:44,761 - root - ERROR - [2025-02-28 16:25:44] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:25:44,768 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:26:44 UTC)" executed successfully
+2025-02-28 16:25:52,533 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:26:02,697 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:26:12,909 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:26:23,071 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:26:33,236 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:26:43,409 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:26:44,744 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:27:44 UTC)" (scheduled at 2025-02-28 13:26:44.740511+00:00)
+2025-02-28 16:26:44,747 - root - ERROR - [2025-02-28 16:26:44] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:26:44,754 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:27:44 UTC)" executed successfully
+2025-02-28 16:26:44,757 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:27:44 UTC)" (scheduled at 2025-02-28 13:26:44.750847+00:00)
+2025-02-28 16:26:44,759 - root - ERROR - [2025-02-28 16:26:44] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:26:44,760 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:27:44 UTC)" executed successfully
+2025-02-28 16:26:53,665 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:27:03,835 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:27:14,040 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:27:24,281 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:27:34,442 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:28:16,810 - root - INFO - Logging setup complete.
+2025-02-28 16:28:18,570 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-28 16:28:18,570 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-28 16:28:19,176 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getMe "HTTP/1.1 200 OK"
+2025-02-28 16:28:19,372 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/deleteWebhook "HTTP/1.1 200 OK"
+2025-02-28 16:28:19,378 - apscheduler.scheduler - INFO - Added job "check_price_alerts" to job store "default"
+2025-02-28 16:28:19,379 - apscheduler.scheduler - INFO - Added job "check_stop_loss_take_profit" to job store "default"
+2025-02-28 16:28:19,380 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-28 16:28:19,383 - telegram.ext.Application - INFO - Application started
+2025-02-28 16:28:28,586 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:29:28 UTC)" (scheduled at 2025-02-28 13:28:28.568697+00:00)
+2025-02-28 16:28:28,588 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:29:28 UTC)" (scheduled at 2025-02-28 13:28:28.570661+00:00)
+2025-02-28 16:28:28,591 - root - ERROR - [2025-02-28 16:28:28] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:28:28,592 - root - ERROR - [2025-02-28 16:28:28] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:28:28,594 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:29:28 UTC)" executed successfully
+2025-02-28 16:28:28,599 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:29:28 UTC)" executed successfully
+2025-02-28 16:28:30,022 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:28:40,262 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:28:40,465 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:28:41,077 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:28:46,303 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:28:46,959 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:28:51,598 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:28:56,135 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:28:56,851 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-02-28 16:28:57,088 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/editMessageText "HTTP/1.1 200 OK"
+2025-02-28 16:29:00,948 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:29:00,952 - root - ERROR - [2025-02-28 16:29:00] ERROR: An error occurred: grid_trading() missing 2 required positional arguments: 'upper_price' and 'grid_levels'
+2025-02-28 16:29:01,243 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:29:02,952 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:29:13,134 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:29:23,307 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:29:28,580 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:30:28 UTC)" (scheduled at 2025-02-28 13:29:28.568697+00:00)
+2025-02-28 16:29:28,582 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:30:28 UTC)" (scheduled at 2025-02-28 13:29:28.570661+00:00)
+2025-02-28 16:29:28,585 - root - ERROR - [2025-02-28 16:29:28] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:29:28,586 - root - ERROR - [2025-02-28 16:29:28] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:29:28,599 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:30:28 UTC)" executed successfully
+2025-02-28 16:29:28,602 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:30:28 UTC)" executed successfully
+2025-02-28 16:29:33,482 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:29:43,754 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:29:53,994 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:30:03,513 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:30:04,094 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-02-28 16:30:04,299 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/editMessageText "HTTP/1.1 200 OK"
+2025-02-28 16:30:08,061 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:30:08,291 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-02-28 16:30:08,524 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:30:13,856 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:30:14,662 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-02-28 16:30:14,977 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 16:30:18,565 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:30:18,770 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-02-28 16:30:18,988 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/editMessageText "HTTP/1.1 200 OK"
+2025-02-28 16:30:28,579 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:31:28 UTC)" (scheduled at 2025-02-28 13:30:28.568697+00:00)
+2025-02-28 16:30:28,581 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:31:28 UTC)" (scheduled at 2025-02-28 13:30:28.570661+00:00)
+2025-02-28 16:30:28,584 - root - ERROR - [2025-02-28 16:30:28] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:30:28,585 - root - ERROR - [2025-02-28 16:30:28] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:30:28,589 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:31:28 UTC)" executed successfully
+2025-02-28 16:30:28,592 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:31:28 UTC)" executed successfully
+2025-02-28 16:30:28,808 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:30:39,057 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:30:49,286 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:30:59,458 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:31:09,623 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:31:20,009 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:31:28,570 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:32:28 UTC)" (scheduled at 2025-02-28 13:31:28.568697+00:00)
+2025-02-28 16:31:28,576 - root - ERROR - [2025-02-28 16:31:28] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:31:28,578 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:32:28 UTC)" (scheduled at 2025-02-28 13:31:28.570661+00:00)
+2025-02-28 16:31:28,582 - root - ERROR - [2025-02-28 16:31:28] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:31:28,584 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:32:28 UTC)" executed successfully
+2025-02-28 16:31:28,588 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:32:28 UTC)" executed successfully
+2025-02-28 16:31:30,184 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:31:40,382 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:31:50,565 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:32:00,744 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:32:10,912 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:32:21,138 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:32:28,581 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:33:28 UTC)" (scheduled at 2025-02-28 13:32:28.568697+00:00)
+2025-02-28 16:32:28,583 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:33:28 UTC)" (scheduled at 2025-02-28 13:32:28.570661+00:00)
+2025-02-28 16:32:28,585 - root - ERROR - [2025-02-28 16:32:28] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:32:28,588 - root - ERROR - [2025-02-28 16:32:28] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:32:28,590 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:33:28 UTC)" executed successfully
+2025-02-28 16:32:28,592 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:33:28 UTC)" executed successfully
+2025-02-28 16:32:31,378 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:32:41,615 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:32:51,862 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:33:02,026 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:33:12,235 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:33:22,411 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:33:28,584 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:34:28 UTC)" (scheduled at 2025-02-28 13:33:28.568697+00:00)
+2025-02-28 16:33:28,587 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:34:28 UTC)" (scheduled at 2025-02-28 13:33:28.570661+00:00)
+2025-02-28 16:33:28,591 - root - ERROR - [2025-02-28 16:33:28] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:33:28,592 - root - ERROR - [2025-02-28 16:33:28] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:33:28,595 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:34:28 UTC)" executed successfully
+2025-02-28 16:33:28,597 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:34:28 UTC)" executed successfully
+2025-02-28 16:33:32,578 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:33:42,804 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:33:52,965 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:34:03,230 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:34:13,469 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:34:23,639 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:34:28,579 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:35:28 UTC)" (scheduled at 2025-02-28 13:34:28.568697+00:00)
+2025-02-28 16:34:28,581 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:35:28 UTC)" (scheduled at 2025-02-28 13:34:28.570661+00:00)
+2025-02-28 16:34:28,582 - root - ERROR - [2025-02-28 16:34:28] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:34:28,583 - root - ERROR - [2025-02-28 16:34:28] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:34:28,585 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:35:28 UTC)" executed successfully
+2025-02-28 16:34:28,587 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:35:28 UTC)" executed successfully
+2025-02-28 16:34:33,818 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:34:44,049 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:34:54,225 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:35:04,390 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:35:14,600 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:35:24,788 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:35:28,579 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:36:28 UTC)" (scheduled at 2025-02-28 13:35:28.568697+00:00)
+2025-02-28 16:35:28,580 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:36:28 UTC)" (scheduled at 2025-02-28 13:35:28.570661+00:00)
+2025-02-28 16:35:28,582 - root - ERROR - [2025-02-28 16:35:28] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:35:28,583 - root - ERROR - [2025-02-28 16:35:28] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:35:28,585 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:36:28 UTC)" executed successfully
+2025-02-28 16:35:28,587 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:36:28 UTC)" executed successfully
+2025-02-28 16:35:34,957 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:35:45,219 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:35:55,460 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:36:05,667 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:36:10,617 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:36:10,622 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-02-28 16:36:10,625 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-02-28 16:36:10,627 - telegram.ext.Application - INFO - Application.stop() complete
+2025-02-28 16:36:10,632 - root - INFO - Shutting down bot...
+2025-02-28 16:36:37,150 - root - INFO - Logging setup complete.
+2025-02-28 16:36:39,003 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-28 16:36:39,004 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-28 16:36:39,567 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getMe "HTTP/1.1 200 OK"
+2025-02-28 16:36:39,801 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/deleteWebhook "HTTP/1.1 200 OK"
+2025-02-28 16:36:39,808 - apscheduler.scheduler - INFO - Added job "check_price_alerts" to job store "default"
+2025-02-28 16:36:39,810 - apscheduler.scheduler - INFO - Added job "check_stop_loss_take_profit" to job store "default"
+2025-02-28 16:36:39,811 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-28 16:36:39,813 - telegram.ext.Application - INFO - Application started
+2025-02-28 16:36:49,013 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:37:49 UTC)" (scheduled at 2025-02-28 13:36:49.001297+00:00)
+2025-02-28 16:36:49,015 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:37:49 UTC)" (scheduled at 2025-02-28 13:36:49.004261+00:00)
+2025-02-28 16:36:49,016 - root - ERROR - [2025-02-28 16:36:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:36:49,016 - root - ERROR - [2025-02-28 16:36:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:36:49,017 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:37:49 UTC)" executed successfully
+2025-02-28 16:36:49,017 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:37:49 UTC)" executed successfully
+2025-02-28 16:36:50,446 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:37:00,604 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:37:10,764 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:37:20,926 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:37:31,087 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:37:41,250 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:37:49,011 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:38:49 UTC)" (scheduled at 2025-02-28 13:37:49.001297+00:00)
+2025-02-28 16:37:49,014 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:38:49 UTC)" (scheduled at 2025-02-28 13:37:49.004261+00:00)
+2025-02-28 16:37:49,017 - root - ERROR - [2025-02-28 16:37:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:37:49,019 - root - ERROR - [2025-02-28 16:37:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:37:49,022 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:38:49 UTC)" executed successfully
+2025-02-28 16:37:49,024 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:38:49 UTC)" executed successfully
+2025-02-28 16:37:51,407 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:38:01,615 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:38:11,780 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:38:21,941 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:38:32,135 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:38:42,295 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:38:49,018 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:39:49 UTC)" (scheduled at 2025-02-28 13:38:49.001297+00:00)
+2025-02-28 16:38:49,019 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:39:49 UTC)" (scheduled at 2025-02-28 13:38:49.004261+00:00)
+2025-02-28 16:38:49,021 - root - ERROR - [2025-02-28 16:38:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:38:49,023 - root - ERROR - [2025-02-28 16:38:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:38:49,025 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:39:49 UTC)" executed successfully
+2025-02-28 16:38:49,032 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:39:49 UTC)" executed successfully
+2025-02-28 16:38:52,508 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:39:02,747 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:39:12,988 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:39:23,227 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:39:33,467 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:39:43,708 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:39:49,006 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:40:49 UTC)" (scheduled at 2025-02-28 13:39:49.001297+00:00)
+2025-02-28 16:39:49,008 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:40:49 UTC)" (scheduled at 2025-02-28 13:39:49.004261+00:00)
+2025-02-28 16:39:49,010 - root - ERROR - [2025-02-28 16:39:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:39:49,011 - root - ERROR - [2025-02-28 16:39:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:39:49,013 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:40:49 UTC)" executed successfully
+2025-02-28 16:39:49,016 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:40:49 UTC)" executed successfully
+2025-02-28 16:39:53,947 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:40:04,192 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:40:14,427 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:40:24,667 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:40:34,907 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:40:45,094 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:40:49,013 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:41:49 UTC)" (scheduled at 2025-02-28 13:40:49.001297+00:00)
+2025-02-28 16:40:49,015 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:41:49 UTC)" (scheduled at 2025-02-28 13:40:49.004261+00:00)
+2025-02-28 16:40:49,017 - root - ERROR - [2025-02-28 16:40:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:40:49,019 - root - ERROR - [2025-02-28 16:40:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:40:49,020 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:41:49 UTC)" executed successfully
+2025-02-28 16:40:49,023 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:41:49 UTC)" executed successfully
+2025-02-28 16:40:55,285 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:41:05,525 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:41:15,765 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:41:25,934 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:41:36,113 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:41:46,296 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:41:49,005 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:42:49 UTC)" (scheduled at 2025-02-28 13:41:49.001297+00:00)
+2025-02-28 16:41:49,009 - root - ERROR - [2025-02-28 16:41:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:41:49,010 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:42:49 UTC)" (scheduled at 2025-02-28 13:41:49.004261+00:00)
+2025-02-28 16:41:49,013 - root - ERROR - [2025-02-28 16:41:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:41:49,016 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:42:49 UTC)" executed successfully
+2025-02-28 16:41:49,019 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:42:49 UTC)" executed successfully
+2025-02-28 16:41:56,519 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:42:06,759 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:42:16,999 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:42:27,160 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:42:37,378 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:42:47,619 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:42:49,018 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:43:49 UTC)" (scheduled at 2025-02-28 13:42:49.001297+00:00)
+2025-02-28 16:42:49,020 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:43:49 UTC)" (scheduled at 2025-02-28 13:42:49.004261+00:00)
+2025-02-28 16:42:49,023 - root - ERROR - [2025-02-28 16:42:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:42:49,025 - root - ERROR - [2025-02-28 16:42:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:42:49,028 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:43:49 UTC)" executed successfully
+2025-02-28 16:42:49,030 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:43:49 UTC)" executed successfully
+2025-02-28 16:42:57,857 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:43:08,097 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:43:18,341 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:43:28,576 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:43:38,817 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:43:49,008 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:44:49 UTC)" (scheduled at 2025-02-28 13:43:49.001297+00:00)
+2025-02-28 16:43:49,010 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:44:49 UTC)" (scheduled at 2025-02-28 13:43:49.004261+00:00)
+2025-02-28 16:43:49,013 - root - ERROR - [2025-02-28 16:43:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:43:49,015 - root - ERROR - [2025-02-28 16:43:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:43:49,017 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:44:49 UTC)" executed successfully
+2025-02-28 16:43:49,019 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:44:49 UTC)" executed successfully
+2025-02-28 16:43:49,056 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:43:59,296 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:44:09,536 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:44:19,888 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:44:30,119 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:44:40,364 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:44:49,010 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:45:49 UTC)" (scheduled at 2025-02-28 13:44:49.001297+00:00)
+2025-02-28 16:44:49,012 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:45:49 UTC)" (scheduled at 2025-02-28 13:44:49.004261+00:00)
+2025-02-28 16:44:49,013 - root - ERROR - [2025-02-28 16:44:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:44:49,015 - root - ERROR - [2025-02-28 16:44:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:44:49,016 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:45:49 UTC)" executed successfully
+2025-02-28 16:44:49,019 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:45:49 UTC)" executed successfully
+2025-02-28 16:44:50,524 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:45:00,736 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:45:10,946 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:45:21,106 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:45:31,354 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:45:41,593 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:45:49,013 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:46:49 UTC)" (scheduled at 2025-02-28 13:45:49.001297+00:00)
+2025-02-28 16:45:49,015 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:46:49 UTC)" (scheduled at 2025-02-28 13:45:49.004261+00:00)
+2025-02-28 16:45:49,017 - root - ERROR - [2025-02-28 16:45:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:45:49,018 - root - ERROR - [2025-02-28 16:45:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:45:49,020 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:46:49 UTC)" executed successfully
+2025-02-28 16:45:49,023 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:46:49 UTC)" executed successfully
+2025-02-28 16:45:51,833 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:46:02,074 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:46:12,313 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:46:22,553 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:46:32,793 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:46:43,032 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:46:49,012 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:47:49 UTC)" (scheduled at 2025-02-28 13:46:49.001297+00:00)
+2025-02-28 16:46:49,014 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:47:49 UTC)" (scheduled at 2025-02-28 13:46:49.004261+00:00)
+2025-02-28 16:46:49,016 - root - ERROR - [2025-02-28 16:46:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:46:49,018 - root - ERROR - [2025-02-28 16:46:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:46:49,019 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:47:49 UTC)" executed successfully
+2025-02-28 16:46:49,022 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:47:49 UTC)" executed successfully
+2025-02-28 16:46:53,194 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:47:03,411 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:47:13,650 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:47:23,891 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:47:34,130 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:47:44,370 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:47:49,007 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:48:49 UTC)" (scheduled at 2025-02-28 13:47:49.001297+00:00)
+2025-02-28 16:47:49,009 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:48:49 UTC)" (scheduled at 2025-02-28 13:47:49.004261+00:00)
+2025-02-28 16:47:49,010 - root - ERROR - [2025-02-28 16:47:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:47:49,011 - root - ERROR - [2025-02-28 16:47:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:47:49,012 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:48:49 UTC)" executed successfully
+2025-02-28 16:47:49,013 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:48:49 UTC)" executed successfully
+2025-02-28 16:47:54,611 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:48:04,772 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:48:14,988 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:48:25,149 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:48:35,366 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:48:45,551 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:48:49,024 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:49:49 UTC)" (scheduled at 2025-02-28 13:48:49.001297+00:00)
+2025-02-28 16:48:49,025 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:49:49 UTC)" (scheduled at 2025-02-28 13:48:49.004261+00:00)
+2025-02-28 16:48:49,028 - root - ERROR - [2025-02-28 16:48:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:48:49,030 - root - ERROR - [2025-02-28 16:48:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:48:49,032 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:49:49 UTC)" executed successfully
+2025-02-28 16:48:49,035 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:49:49 UTC)" executed successfully
+2025-02-28 16:48:55,743 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:49:05,902 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:49:16,120 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:49:26,360 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:49:36,535 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:49:46,738 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:49:49,007 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:50:49 UTC)" (scheduled at 2025-02-28 13:49:49.001297+00:00)
+2025-02-28 16:49:49,011 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:50:49 UTC)" (scheduled at 2025-02-28 13:49:49.004261+00:00)
+2025-02-28 16:49:49,014 - root - ERROR - [2025-02-28 16:49:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:49:49,016 - root - ERROR - [2025-02-28 16:49:49] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:49:49,018 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:50:49 UTC)" executed successfully
+2025-02-28 16:49:49,019 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:50:49 UTC)" executed successfully
+2025-02-28 16:49:56,900 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:50:07,066 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:51:25,830 - root - INFO - Logging setup complete.
+2025-02-28 16:51:27,556 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-28 16:51:27,557 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-28 16:51:28,117 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getMe "HTTP/1.1 200 OK"
+2025-02-28 16:51:28,303 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/deleteWebhook "HTTP/1.1 200 OK"
+2025-02-28 16:51:28,309 - apscheduler.scheduler - INFO - Added job "check_price_alerts" to job store "default"
+2025-02-28 16:51:28,311 - apscheduler.scheduler - INFO - Added job "check_stop_loss_take_profit" to job store "default"
+2025-02-28 16:51:28,312 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-28 16:51:28,314 - telegram.ext.Application - INFO - Application started
+2025-02-28 16:51:37,569 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:52:37 UTC)" (scheduled at 2025-02-28 13:51:37.555451+00:00)
+2025-02-28 16:51:37,571 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:52:37 UTC)" (scheduled at 2025-02-28 13:51:37.557449+00:00)
+2025-02-28 16:51:37,573 - root - ERROR - [2025-02-28 16:51:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:51:37,575 - root - ERROR - [2025-02-28 16:51:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:51:37,576 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:52:37 UTC)" executed successfully
+2025-02-28 16:51:37,581 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:52:37 UTC)" executed successfully
+2025-02-28 16:51:38,866 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:51:49,105 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:51:59,345 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:52:09,585 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:52:19,745 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:52:29,904 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:52:37,563 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:53:37 UTC)" (scheduled at 2025-02-28 13:52:37.555451+00:00)
+2025-02-28 16:52:37,565 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:53:37 UTC)" (scheduled at 2025-02-28 13:52:37.557449+00:00)
+2025-02-28 16:52:37,568 - root - ERROR - [2025-02-28 16:52:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:52:37,570 - root - ERROR - [2025-02-28 16:52:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:52:37,573 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:53:37 UTC)" executed successfully
+2025-02-28 16:52:37,575 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:53:37 UTC)" executed successfully
+2025-02-28 16:52:40,100 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:52:50,340 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:53:00,580 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:53:10,826 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:53:21,060 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:53:31,220 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:53:37,560 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:54:37 UTC)" (scheduled at 2025-02-28 13:53:37.555451+00:00)
+2025-02-28 16:53:37,562 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:54:37 UTC)" (scheduled at 2025-02-28 13:53:37.557449+00:00)
+2025-02-28 16:53:37,564 - root - ERROR - [2025-02-28 16:53:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:53:37,566 - root - ERROR - [2025-02-28 16:53:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:53:37,567 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:54:37 UTC)" executed successfully
+2025-02-28 16:53:37,571 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:54:37 UTC)" executed successfully
+2025-02-28 16:53:41,437 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:53:51,598 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:54:01,818 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:54:12,055 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:54:22,216 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:54:32,432 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:54:37,574 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:55:37 UTC)" (scheduled at 2025-02-28 13:54:37.555451+00:00)
+2025-02-28 16:54:37,576 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:55:37 UTC)" (scheduled at 2025-02-28 13:54:37.557449+00:00)
+2025-02-28 16:54:37,578 - root - ERROR - [2025-02-28 16:54:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:54:37,580 - root - ERROR - [2025-02-28 16:54:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:54:37,582 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:55:37 UTC)" executed successfully
+2025-02-28 16:54:37,585 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:55:37 UTC)" executed successfully
+2025-02-28 16:54:42,672 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:54:52,835 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:55:03,050 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:55:13,290 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:55:23,452 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:55:33,667 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:55:37,563 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:56:37 UTC)" (scheduled at 2025-02-28 13:55:37.555451+00:00)
+2025-02-28 16:55:37,565 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:56:37 UTC)" (scheduled at 2025-02-28 13:55:37.557449+00:00)
+2025-02-28 16:55:37,568 - root - ERROR - [2025-02-28 16:55:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:55:37,569 - root - ERROR - [2025-02-28 16:55:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:55:37,572 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:56:37 UTC)" executed successfully
+2025-02-28 16:55:37,575 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:56:37 UTC)" executed successfully
+2025-02-28 16:55:43,907 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:55:54,147 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:56:04,386 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:56:14,626 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:56:24,855 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:56:35,107 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:56:37,568 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:57:37 UTC)" (scheduled at 2025-02-28 13:56:37.555451+00:00)
+2025-02-28 16:56:37,570 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:57:37 UTC)" (scheduled at 2025-02-28 13:56:37.557449+00:00)
+2025-02-28 16:56:37,573 - root - ERROR - [2025-02-28 16:56:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:56:37,574 - root - ERROR - [2025-02-28 16:56:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:56:37,577 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:57:37 UTC)" executed successfully
+2025-02-28 16:56:37,580 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:57:37 UTC)" executed successfully
+2025-02-28 16:56:45,348 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:56:55,520 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:57:05,725 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:57:15,964 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:57:26,204 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:57:36,445 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:57:37,572 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:58:37 UTC)" (scheduled at 2025-02-28 13:57:37.555451+00:00)
+2025-02-28 16:57:37,574 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:58:37 UTC)" (scheduled at 2025-02-28 13:57:37.557449+00:00)
+2025-02-28 16:57:37,577 - root - ERROR - [2025-02-28 16:57:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:57:37,579 - root - ERROR - [2025-02-28 16:57:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:57:37,582 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:58:37 UTC)" executed successfully
+2025-02-28 16:57:37,584 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:58:37 UTC)" executed successfully
+2025-02-28 16:57:46,610 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:57:56,821 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:58:06,983 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:58:17,146 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:58:27,339 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:58:37,502 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:58:37,566 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:59:37 UTC)" (scheduled at 2025-02-28 13:58:37.555451+00:00)
+2025-02-28 16:58:37,569 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:59:37 UTC)" (scheduled at 2025-02-28 13:58:37.557449+00:00)
+2025-02-28 16:58:37,570 - root - ERROR - [2025-02-28 16:58:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:58:37,571 - root - ERROR - [2025-02-28 16:58:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:58:37,572 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 13:59:37 UTC)" executed successfully
+2025-02-28 16:58:37,573 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 13:59:37 UTC)" executed successfully
+2025-02-28 16:58:47,714 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:58:57,954 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:59:08,115 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:59:18,331 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:59:28,571 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:59:37,565 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 14:00:37 UTC)" (scheduled at 2025-02-28 13:59:37.555451+00:00)
+2025-02-28 16:59:37,567 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 14:00:37 UTC)" (scheduled at 2025-02-28 13:59:37.557449+00:00)
+2025-02-28 16:59:37,569 - root - ERROR - [2025-02-28 16:59:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:59:37,570 - root - ERROR - [2025-02-28 16:59:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 16:59:37,572 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 14:00:37 UTC)" executed successfully
+2025-02-28 16:59:37,575 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 14:00:37 UTC)" executed successfully
+2025-02-28 16:59:38,812 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:59:48,975 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 16:59:59,189 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:00:09,353 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:00:19,566 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:00:29,806 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:00:37,565 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 14:01:37 UTC)" (scheduled at 2025-02-28 14:00:37.555451+00:00)
+2025-02-28 17:00:37,567 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 14:01:37 UTC)" (scheduled at 2025-02-28 14:00:37.557449+00:00)
+2025-02-28 17:00:37,570 - root - ERROR - [2025-02-28 17:00:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 17:00:37,571 - root - ERROR - [2025-02-28 17:00:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 17:00:37,574 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 14:01:37 UTC)" executed successfully
+2025-02-28 17:00:37,576 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 14:01:37 UTC)" executed successfully
+2025-02-28 17:00:40,046 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:00:50,286 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:01:00,447 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:01:10,663 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:01:20,904 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:01:31,149 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:01:37,559 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 14:02:37 UTC)" (scheduled at 2025-02-28 14:01:37.555451+00:00)
+2025-02-28 17:01:37,561 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 14:02:37 UTC)" (scheduled at 2025-02-28 14:01:37.557449+00:00)
+2025-02-28 17:01:37,563 - root - ERROR - [2025-02-28 17:01:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 17:01:37,564 - root - ERROR - [2025-02-28 17:01:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 17:01:37,566 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 14:02:37 UTC)" executed successfully
+2025-02-28 17:01:37,569 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 14:02:37 UTC)" executed successfully
+2025-02-28 17:01:41,384 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:01:51,623 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:02:01,784 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:02:12,001 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:02:22,241 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:02:32,481 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:02:37,565 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 14:03:37 UTC)" (scheduled at 2025-02-28 14:02:37.555451+00:00)
+2025-02-28 17:02:37,567 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 14:03:37 UTC)" (scheduled at 2025-02-28 14:02:37.557449+00:00)
+2025-02-28 17:02:37,569 - root - ERROR - [2025-02-28 17:02:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 17:02:37,571 - root - ERROR - [2025-02-28 17:02:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 17:02:37,573 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 14:03:37 UTC)" executed successfully
+2025-02-28 17:02:37,576 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 14:03:37 UTC)" executed successfully
+2025-02-28 17:02:42,720 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:02:52,883 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:03:03,099 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:03:13,338 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:03:23,578 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:03:33,818 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:03:37,556 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 14:04:37 UTC)" (scheduled at 2025-02-28 14:03:37.555451+00:00)
+2025-02-28 17:03:37,559 - root - ERROR - [2025-02-28 17:03:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 17:03:37,561 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 14:04:37 UTC)" (scheduled at 2025-02-28 14:03:37.557449+00:00)
+2025-02-28 17:03:37,563 - root - ERROR - [2025-02-28 17:03:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 17:03:37,566 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 14:04:37 UTC)" executed successfully
+2025-02-28 17:03:37,569 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 14:04:37 UTC)" executed successfully
+2025-02-28 17:03:44,058 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:03:54,297 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:04:04,458 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:04:14,675 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:04:24,853 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:04:32,378 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:04:36,486 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:04:37,566 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 14:05:37 UTC)" (scheduled at 2025-02-28 14:04:37.555451+00:00)
+2025-02-28 17:04:37,567 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 14:05:37 UTC)" (scheduled at 2025-02-28 14:04:37.557449+00:00)
+2025-02-28 17:04:37,570 - root - ERROR - [2025-02-28 17:04:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 17:04:37,571 - root - ERROR - [2025-02-28 17:04:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 17:04:37,573 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 14:05:37 UTC)" executed successfully
+2025-02-28 17:04:37,576 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 14:05:37 UTC)" executed successfully
+2025-02-28 17:04:46,726 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:04:51,437 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:04:51,441 - root - ERROR - [2025-02-28 17:04:51] ERROR: An error occurred: find_arbitrage_opportunities() takes 0 positional arguments but 2 were given
+2025-02-28 17:04:52,052 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 17:05:01,676 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:05:02,086 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:05:02,707 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 17:05:09,049 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:05:09,053 - root - ERROR - [2025-02-28 17:05:09] ERROR: An error occurred: detect_anomalies() takes 1 positional argument but 2 were given
+2025-02-28 17:05:09,752 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 17:05:16,729 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:05:25,945 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:05:25,957 - root - ERROR - [2025-02-28 17:05:25] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 17:05:26,575 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 17:05:36,185 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:05:37,571 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 14:06:37 UTC)" (scheduled at 2025-02-28 14:05:37.555451+00:00)
+2025-02-28 17:05:37,573 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 14:06:37 UTC)" (scheduled at 2025-02-28 14:05:37.557449+00:00)
+2025-02-28 17:05:37,575 - root - ERROR - [2025-02-28 17:05:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 17:05:37,577 - root - ERROR - [2025-02-28 17:05:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 17:05:37,578 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 14:06:37 UTC)" executed successfully
+2025-02-28 17:05:37,581 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 14:06:37 UTC)" executed successfully
+2025-02-28 17:05:46,425 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:05:49,652 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:05:50,332 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 17:05:56,531 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:05:57,189 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/sendMessage "HTTP/1.1 200 OK"
+2025-02-28 17:06:06,701 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:06:16,940 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:06:27,100 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:06:37,262 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:06:37,583 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 14:07:37 UTC)" (scheduled at 2025-02-28 14:06:37.555451+00:00)
+2025-02-28 17:06:37,584 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 14:07:37 UTC)" (scheduled at 2025-02-28 14:06:37.557449+00:00)
+2025-02-28 17:06:37,586 - root - ERROR - [2025-02-28 17:06:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 17:06:37,587 - root - ERROR - [2025-02-28 17:06:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 17:06:37,589 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 14:07:37 UTC)" executed successfully
+2025-02-28 17:06:37,591 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 14:07:37 UTC)" executed successfully
+2025-02-28 17:06:47,424 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:06:57,592 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:07:07,833 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:07:18,015 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:07:28,210 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:07:37,580 - apscheduler.executors.default - INFO - Running job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 14:08:37 UTC)" (scheduled at 2025-02-28 14:07:37.555451+00:00)
+2025-02-28 17:07:37,582 - apscheduler.executors.default - INFO - Running job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 14:08:37 UTC)" (scheduled at 2025-02-28 14:07:37.557449+00:00)
+2025-02-28 17:07:37,584 - root - ERROR - [2025-02-28 17:07:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 17:07:37,586 - root - ERROR - [2025-02-28 17:07:37] ERROR: An error occurred: object NoneType can't be used in 'await' expression
+2025-02-28 17:07:37,587 - apscheduler.executors.default - INFO - Job "check_price_alerts (trigger: interval[0:01:00], next run at: 2025-02-28 14:08:37 UTC)" executed successfully
+2025-02-28 17:07:37,590 - apscheduler.executors.default - INFO - Job "check_stop_loss_take_profit (trigger: interval[0:01:00], next run at: 2025-02-28 14:08:37 UTC)" executed successfully
+2025-02-28 17:07:38,452 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:07:48,690 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:07:59,298 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:08:09,464 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:08:13,499 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7576294877:AAFmyP8G9pK-M8ZDgahwCjIuc6JBer7CcHk/getUpdates "HTTP/1.1 200 OK"
+2025-02-28 17:08:13,502 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-02-28 17:08:13,505 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-02-28 17:08:13,506 - telegram.ext.Application - INFO - Application.stop() complete
+2025-02-28 17:08:13,511 - root - INFO - Shutting down bot...

@@ -1,0 +1,102 @@
+"""
+Configuration module for the TradeMaster bot.
+Handles loading and storing of configuration settings.
+"""
+
+from dotenv import load_dotenv
+import os
+import json
+
+def load_config(config_file_path=None):
+    """
+    Load configuration from a JSON file.
+    If no file path is provided, it uses the default config.json
+    """
+    if not config_file_path:
+        # Default to config.json in the same directory as this file
+        config_file_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'config.json')
+    
+    try:
+        with open(config_file_path, 'r') as config_file:
+            config = json.load(config_file)
+    except FileNotFoundError:
+        # If config file doesn't exist, create a default configuration
+        config = {
+            'log_file': os.path.join(os.path.dirname(os.path.dirname(__file__)), 'logs', 'trademaster.log'),
+            'exchanges': {
+                'binance': {
+                    'api_key': os.getenv('BINANCE_API_KEY', ''),
+                    'api_secret': os.getenv('BINANCE_API_SECRET', '')
+                },
+                'coinbase': {
+                    'api_key': os.getenv('COINBASE_API_KEY', ''),
+                    'api_secret': os.getenv('COINBASE_API_SECRET', '')
+                }
+            },
+            'default_exchange': 'binance',
+            'default_symbols': ['BTC/USDT', 'ETH/USDT', 'SOL/USDT'],
+            'chart_timeframes': ['1m', '5m', '15m', '1h', '4h', '1d'],
+            'default_timeframe': '1h',
+            'price_alert_interval': 60,  # Check price alerts every 60 seconds
+            'stop_loss_check_interval': 60,  # Check stop loss every 60 seconds
+            'subscribed_users': [],  # List of user chat IDs for daily reports
+            'ml_models_path': os.path.join(os.path.dirname(os.path.dirname(__file__)), 'models'),
+            'database_path': os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'trademaster.db'),
+            'websocket_port': 8765,
+            'tradingview_webhook_port': 8080,
+            'webhook_secret': os.getenv('WEBHOOK_SECRET', 'change_this_to_a_secret_key'),
+            'eth_wallet_address': os.getenv('ETH_WALLET_ADDRESS', ''),
+            'infura_api_key': os.getenv('INFURA_API_KEY', ''),
+            'google_sheets_credentials': os.path.join(os.path.dirname(os.path.dirname(__file__)), 'credentials', 'google_sheets.json'),
+            'risk_free_rate': 0.02,  # For efficient frontier calculations
+            'risk_management': {
+                'max_position_size_percent': 5.0,  # Max position size as % of portfolio
+                'default_risk_percent': 1.0,  # Risk per trade as % of portfolio
+                'default_risk_reward_ratio': 2.0  # Target profit / risk ratio
+            }
+        }
+        
+        # Create directory for config if it doesn't exist
+        os.makedirs(os.path.dirname(config_file_path), exist_ok=True)
+        
+        # Save the default config
+        with open(config_file_path, 'w') as config_file:
+            json.dump(config, config_file, indent=4)
+            
+    # Ensure log directory exists
+    os.makedirs(os.path.dirname(config['log_file']), exist_ok=True)
+    
+    return config
+
+def save_config(config, config_file_path=None):
+    """
+    Save configuration to a JSON file.
+    """
+    if not config_file_path:
+        config_file_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'config.json')
+    
+    with open(config_file_path, 'w') as config_file:
+        json.dump(config, config_file, indent=4)
+    
+    return True
+
+def update_config(key, value, config_file_path=None):
+    """
+    Update a specific configuration setting and save the updated config.
+    """
+    config = load_config(config_file_path)
+    
+    # Handle nested keys with dot notation (e.g., "exchanges.binance.api_key")
+    if '.' in key:
+        parts = key.split('.')
+        temp = config
+        for part in parts[:-1]:
+            if part not in temp:
+                temp[part] = {}
+            temp = temp[part]
+        temp[parts[-1]] = value
+    else:
+        config[key] = value
+    
+    save_config(config, config_file_path)
+    return config

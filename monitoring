@@ -1,0 +1,191 @@
+import logging
+import json
+from datetime import datetime
+import os
+from typing import Dict, Any, Optional
+import traceback
+
+# Constants
+LOGS_DIR = "logs"
+TRADES_LOG_FILE = os.path.join(LOGS_DIR, "trades.log")
+PERFORMANCE_LOG_FILE = os.path.join(LOGS_DIR, "performance.log")
+ERROR_LOG_FILE = os.path.join(LOGS_DIR, "errors.log")
+LOG_FORMAT = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+def setup_logging(log_file: str, log_level: int = logging.INFO, console_output: bool = True) -> None:
+    """
+    Set up logging configuration.
+
+    Args:
+        log_file (str): Path to the log file.
+        log_level (int): Logging level (e.g., logging.INFO, logging.ERROR).
+        console_output (bool): Whether to log to the console.
+    """
+    # Create logs directory if it doesn't exist
+    log_dir = os.path.dirname(log_file)
+    if log_dir and not os.path.exists(log_dir):
+        os.makedirs(log_dir)
+
+    # Clear existing handlers to avoid duplicate logs
+    logging.getLogger().handlers.clear()
+
+    # Configure logging
+    handlers = [logging.FileHandler(log_file)]
+    if console_output:
+        handlers.append(logging.StreamHandler())
+
+    logging.basicConfig(
+        level=log_level,
+        format=LOG_FORMAT,
+        handlers=handlers,
+    )
+    logging.info("Logging initialized successfully.")
+
+def log_error(error_message: str, exc_info: bool = False, context: Optional[Dict[str, Any]] = None) -> None:
+    """
+    Log error messages with optional exception information and context.
+
+    Args:
+        error_message (str): The error message to log.
+        exc_info (bool): Whether to include exception information.
+        context (Optional[Dict[str, Any]]): Additional context to log with the error.
+    """
+    if exc_info:
+        error_message += f"\n{traceback.format_exc()}"
+
+    if context:
+        error_message += f"\nContext: {json.dumps(context)}"
+
+    logging.error(error_message)
+
+    # Also save to a dedicated errors log file
+    with open(ERROR_LOG_FILE, "a") as f:
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        f.write(f"{timestamp} - ERROR: {error_message}\n")
+
+def log_trade(trade_data: Dict[str, Any]) -> None:
+    """
+    Log trade execution details.
+
+    Args:
+        trade_data (Dict[str, Any]): A dictionary containing trade details.
+    """
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    trade_data["timestamp"] = timestamp
+
+    # Log to the main log file
+    logging.info(f"TRADE: {json.dumps(trade_data)}")
+
+    # Also save to a dedicated trades log file
+    with open(TRADES_LOG_FILE, "a") as f:
+        f.write(f"{timestamp} - TRADE: {json.dumps(trade_data)}\n")
+
+def log_performance(performance_data: Dict[str, Any]) -> None:
+    """
+    Log performance metrics.
+
+    Args:
+        performance_data (Dict[str, Any]): A dictionary containing performance metrics.
+    """
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    performance_data["timestamp"] = timestamp
+
+    # Log to the main log file
+    logging.info(f"PERFORMANCE: {json.dumps(performance_data)}")
+
+    # Also save to a dedicated performance log file
+    with open(PERFORMANCE_LOG_FILE, "a") as f:
+        f.write(f"{timestamp} - PERFORMANCE: {json.dumps(performance_data)}\n")
+
+def clear_logs() -> None:
+    """
+    Clear all log files.
+    """
+    for log_file in [TRADES_LOG_FILE, PERFORMANCE_LOG_FILE, ERROR_LOG_FILE]:
+        if os.path.exists(log_file):
+            with open(log_file, "w") as f:
+                f.write("")
+    logging.info("All log files cleared.")
+
+def get_logs(log_type: str = "all", max_lines: Optional[int] = None) -> str:
+    """
+    Retrieve logs of a specific type.
+
+    Args:
+        log_type (str): Type of logs to retrieve ("trades", "performance", "errors", or "all").
+        max_lines (Optional[int]): Maximum number of lines to retrieve. If None, retrieve all.
+
+    Returns:
+        str: The requested logs as a string.
+    """
+    log_files = {
+        "trades": TRADES_LOG_FILE,
+        "performance": PERFORMANCE_LOG_FILE,
+        "errors": ERROR_LOG_FILE,
+    }
+
+    if log_type == "all":
+        logs = []
+        for log_file in log_files.values():
+            if os.path.exists(log_file):
+                with open(log_file, "r") as f:
+                    lines = f.readlines()
+                    if max_lines:
+                        lines = lines[-max_lines:]
+                    logs.append("".join(lines))
+        return "\n".join(logs)
+    elif log_type in log_files:
+        if os.path.exists(log_files[log_type]):
+            with open(log_files[log_type], "r") as f:
+                lines = f.readlines()
+                if max_lines:
+                    lines = lines[-max_lines:]
+                return "".join(lines)
+        else:
+            return f"No logs found for type: {log_type}"
+    else:
+        return f"Invalid log type: {log_type}"
+
+def archive_logs(archive_dir: str = "logs/archive") -> None:
+    """
+    Archive existing logs by moving them to an archive directory.
+
+    Args:
+        archive_dir (str): Directory to store archived logs.
+    """
+    if not os.path.exists(archive_dir):
+        os.makedirs(archive_dir)
+
+    for log_file in [TRADES_LOG_FILE, PERFORMANCE_LOG_FILE, ERROR_LOG_FILE]:
+        if os.path.exists(log_file):
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            archive_file = os.path.join(archive_dir, f"{os.path.basename(log_file)}_{timestamp}")
+            os.rename(log_file, archive_file)
+    logging.info("Logs archived successfully.")
+
+# Example usage
+if __name__ == "__main__":
+    # Initialize logging
+    setup_logging("logs/app.log")
+
+    # Log a trade
+    log_trade({"symbol": "BTC/USDT", "side": "BUY", "quantity": 0.01, "price": 50000})
+
+    # Log performance
+    log_performance({"pnl": 1000, "win_rate": 0.75})
+
+    # Log an error with context
+    try:
+        divisor = 2
+        if divisor == 0:
+            raise ValueError("Cannot divide by zero")
+        result = 1 / divisor
+    except Exception as e:
+        log_error("Division by zero error", exc_info=True, context={"step": "calculation", "value": 0})
+
+    # Retrieve logs
+    print(get_logs("trades", max_lines=10))
+    print(get_logs("errors"))
+
+    # Archive logs
+    archive_logs()
